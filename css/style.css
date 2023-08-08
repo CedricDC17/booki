@@ -238,42 +238,45 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 50px;
     height: 50px;
-
     border-radius: 15px 0px 0px 15px;
     border: solid 1px;
     border-color: #F2F2F2;
-
     background-color: #F2F2F2;
+}
+
+.search-icon i {
+    color: black;
 }
 
 .search-input {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 0px 24px;
     height: 50px;
-
-
     border: solid 1px;
     border-color: #F2F2F2;
     border-right: transparent;
 }
 
 .search-button {
-    height: 50px;
-
-    border-radius: 0px 15px 15px 0px;
-    border: solid 1px;
-    border-color: #0065FC;
+    padding: 15px 16px;
     color: white;
-    background-color: #0065FC;
-
-    text-decoration: none;
     cursor: pointer;
+    background-color: transparent;
+    border: none;
 }
+
+.search-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0065FC;
+}
+
 
 .filter-bar {
     display: flex;
@@ -309,6 +312,10 @@ h1 {
     gap: 10px;
 }
 
+#info-icon {
+    line-height: 1;
+}
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -325,8 +332,19 @@ h1 {
 
 .hebergements-cards img {
     width: 100%;
-    height: 125px;
+    height: 100px;
     border-radius: 15px 15px 0px 0px;
+}
+
+.hebergements-cards .card-content {
+    margin-top: 4px;
+    padding: 0px 15px ;
+    gap: 8px;
+}
+
+.hebergements-cards .card-content h3,
+p {
+    margin: 0px 0px 8px 0px;
 }
 
 .hebergements-cards .card {
@@ -337,7 +355,7 @@ h1 {
     margin: 0;
 }
 
-.activites{
+.activites {
     margin-top: 35px;
     padding: 30px;
 }
@@ -346,28 +364,28 @@ h1 {
     margin: 0px;
 }
 
-.activites img{
+.activites img {
     width: 100%;
     height: 280px;
     border-radius: 15px 15px 0px 0px;
 }
 
-.activites-cards{
+.activites-cards {
     display: flex;
     margin-top: 30px;
     gap: 30px;
 }
 
-.activites-cards .card{
+.activites-cards .card {
     width: 25%;
     padding: 0px;
 }
 
-.activites-cards .card-content{
+.activites-cards .card-content {
     margin: 20px 19px;
 }
 
-.activites-cards h3{
+.activites-cards h3 {
     margin: 0px;
 }
 
@@ -376,7 +394,7 @@ h1 {
     display: flex;
 }
 
-.footer .list{
+.footer .list {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -384,10 +402,19 @@ h1 {
     padding: 20px;
 }
 
-.footer h3{
+.footer h3 {
     margin: 0px;
 }
 
+
+.search-input,
+.search-button,
+.filter,
+.see-more,
+.filter-bar-title {
+    font-size: 18px;
+    font-weight: 700;
+}
 
 
 
