@@ -35,11 +35,12 @@
                 </div>
 
                 <div class="search-bar">
-                    <div class="search-icon"><i class="fa-solid fa-location-dot fa-lg"></i></div>
-                    <div class="search-input">Marseille, France</div>
-                    <div class="search-button-container">
-                        <button class="search-button">Rechercher</button>
-                    </div>
+                    <form class="search-form" action="" method="get">
+                        <label for="location" class="search-icon"><i class="fa-solid fa-location-dot fa-lg"></i></label>
+                        <input class="search-input" name="location" id="location" type="text">
+                        <!-- <button class="search-button">Rechercher</button> -->
+                        <input class="search-button" type="submit" value="Rechercher">
+                    </form>
                 </div>
                 <div class="filter-bar">
                     <span class="filter-bar-title">Filtres</span>

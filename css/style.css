@@ -265,16 +265,14 @@ h1 {
     padding: 15px 16px;
     color: white;
     cursor: pointer;
-    background-color: transparent;
     border: none;
-}
-
-.search-button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 0px 15px 15px 0px;
     background-color: #0065FC;
+}
+
+.search-form {
+    padding: 0px;
+    display: flex;
 }
 
 
@@ -338,7 +336,7 @@ h1 {
 
 .hebergements-cards .card-content {
     margin-top: 4px;
-    padding: 0px 15px ;
+    padding: 0px 15px;
     gap: 8px;
 }
 
