@@ -14,7 +14,6 @@
 }
 
 
-
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -51,7 +50,6 @@
 }
 
 /****** Hebergements And Populaires ***********/
-
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
@@ -110,37 +108,16 @@
     margin-bottom: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------------------------------------------------- */
+/* --------------------------Début des modifications du CSS-------------------------- */
 
 body {
     display: flex;
     justify-content: center;
-    margin: 0px 8px;
+    margin: 0 8px;
 }
 
 header {
-    margin-top: 0px;
+    margin-top: 0;
     display: flex;
     justify-content: space-between;
 }
@@ -148,18 +125,18 @@ header {
 .logo {
     height: 20px;
     width: 62px;
-    padding: 30px 0px;
+    padding: 30px 0;
 }
 
 
 .nav-list {
     display: flex;
     list-style-type: none;
-    margin: 0%;
+    margin: 0;
 
 
     gap: 68px;
-    padding: 0px 25px;
+    padding: 0 25px;
 
 }
 
@@ -183,7 +160,7 @@ header {
 
 .info-group p,
 h1 {
-    margin: 0px;
+    margin: 0;
 }
 
 .info-group p {
@@ -198,7 +175,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0 0 15px;
     border: solid 1px;
     border-color: #F2F2F2;
     background-color: #F2F2F2;
@@ -213,7 +190,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 24px;
+    padding: 0 24px;
     height: 50px;
     border: solid 1px;
     border-color: #F2F2F2;
@@ -223,7 +200,7 @@ h1 {
 .search-button {
     padding: 15px 16px;
     background-color: #0065FC;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0 15px 15px 0;
     color: white;
     cursor: pointer;
     border: none;
@@ -234,7 +211,7 @@ h1 {
 }
 
 .search-form {
-    padding: 0px;
+    padding: 0;
     display: flex;
 }
 
@@ -260,7 +237,7 @@ h1 {
     align-items: center;
     justify-content: center;
 
-    padding: 0px 20px;
+    padding: 0 20px;
     gap: 10px;
     height: 50px;
     border-radius: 25px;
@@ -288,24 +265,24 @@ h1 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 30px;
-    margin: 30px 0px;
+    margin: 30px 0;
 }
 
 .hebergements-cards img {
     width: 100%;
     height: 100px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0 0;
 }
 
 .hebergements-cards .card-content {
     margin-top: 4px;
-    padding: 0px 15px;
+    padding: 0 15px;
     gap: 8px;
 }
 
 .hebergements-cards .card-content h3,
 p {
-    margin: 0px 0px 8px 0px;
+    margin: 0 0 8px 0;
 }
 
 .hebergements-cards .card {
@@ -322,13 +299,13 @@ p {
 }
 
 .activites h2 {
-    margin: 0px;
+    margin: 0;
 }
 
 .activites img {
     width: 100%;
     height: 280px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0 0;
 }
 
 .activites-cards {
@@ -339,7 +316,7 @@ p {
 
 .activites-cards .card {
     width: 25%;
-    padding: 0px;
+    padding: 0;
 }
 
 .activites-cards .card-content {
@@ -347,7 +324,7 @@ p {
 }
 
 .activites-cards h3 {
-    margin: 0px;
+    margin: 0;
 }
 
 .footer {
@@ -364,9 +341,8 @@ p {
 }
 
 .footer h3 {
-    margin: 0px;
+    margin: 0;
 }
-
 
 .search-input,
 .search-button,
@@ -376,12 +352,6 @@ p {
     font-size: 18px;
     font-weight: 700;
 }
-
-
-
-/* ---------------------------------------------------- */
-
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -431,7 +401,7 @@ p {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     .main-container {
-        padding: 0px 20px;
+        padding: 0 20px;
     }
 
     header {
@@ -445,8 +415,8 @@ p {
         position: relative;
         margin-left: -50vw;
         left: 50%;
-        padding: 0px;
-        gap: 0px;
+        padding: 0;
+        gap: 0;
     }
 
     .nav-item {
@@ -465,8 +435,6 @@ p {
         border-color: #0065FC;
         color: #0065FC;
     }
-
-
 
     .search-text {
         display: none;
@@ -494,8 +462,8 @@ p {
         width: 50px;
         height: 100%;
         border-radius: 20px;
-        right: 0px;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        right: 0;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
         /* float: right; */
     }
 
@@ -524,7 +492,7 @@ p {
     }
 
     .hebergements-and-populaires section {
-        border-radius: 0px;
+        border-radius: 0;
     }
 
     .populaires {
@@ -556,9 +524,10 @@ p {
         width: 100%;
     }
 
-    .activites{
+    .activites {
         padding: 10px;
     }
+
     .activites-cards {
         flex-direction: column;
     }
@@ -574,13 +543,6 @@ p {
         width: 100vw;
         margin-left: -50vw;
         left: 50%;
-        /* padding: 30px; */
     }
-
-    .footer .list {
-        /* width: 50%; */
-
-    }
-
 
 }
