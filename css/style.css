@@ -430,22 +430,22 @@ p {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .main-container {
+        padding: 0px 20px;
+    }
 
     header {
         position: relative;
-        width: 100vw;
-        left: 50%;
-        transform: translateX(-50%);
         flex-direction: column;
         align-items: center;
     }
 
-    .nav-list{
+    .nav-list {
         width: 100vw;
         gap: 0px;
     }
 
-    .nav-item{
+    .nav-item {
         width: 50%;
         text-align: center;
     }
@@ -454,17 +454,15 @@ p {
         border-bottom: solid #F2F2F2;
         padding-bottom: 16px;
     }
-    
+
     .nav-list li:hover {
-        
+
         border-top: transparent;
         border-color: #0065FC;
         color: #0065FC;
     }
 
-    .main-container {
-        padding: 0px 20px;
-    }
+
 
     .search-text {
         display: none;
@@ -506,5 +504,67 @@ p {
         outline: solid 1px;
     }
 
-    /* ... */
+    .filter {
+        width: calc(50% - 56px);
+    }
+
+    .info-text {
+        align-items: center;
+    }
+
+    .hebergements-and-populaires {
+        width: 100%;
+        position: relative;
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section {
+
+        border-radius: 0px;
+    }
+
+    .populaires {
+        width: 100vw;
+        margin: 0px -28px;
+    }
+
+    .populaires-cards,
+    .hebergements-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards .card {
+        width: calc(100% - 10px);
+    }
+
+    .hebergements-and-populaires .hebergements {
+        background-color: white !important;
+        padding: 0;
+    }
+
+    .hebergements-cards .card{
+        width: 100%;
+    }
+
+    .activites-cards{
+        flex-direction: column;
+    }
+
+    .activites-cards .card{
+        width: 100%;
+
+    }
+
+    .footer{
+        flex-direction: column;
+        width: 100vw;
+        margin: 0px -28px;
+        padding: 30px;
+    }
+
+    .footer .list{
+        width: 100%;
+    }
+
+
 }
