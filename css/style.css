@@ -359,7 +359,7 @@ p {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 33%;
+    flex-basis: 33%;
     padding: 20px;
 }
 
@@ -574,11 +574,12 @@ p {
         width: 100vw;
         margin-left: -50vw;
         left: 50%;
-        padding: 30px;
+        /* padding: 30px; */
     }
 
     .footer .list {
-        width: 50%;
+        /* width: 50%; */
+
     }
 
 
