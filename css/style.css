@@ -442,6 +442,10 @@ p {
 
     .nav-list {
         width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50%;
+        padding: 0px;
         gap: 0px;
     }
 
@@ -516,16 +520,22 @@ p {
         width: 100%;
         position: relative;
         flex-direction: column-reverse;
+        gap: 15px;
     }
 
     .hebergements-and-populaires section {
-
         border-radius: 0px;
     }
 
     .populaires {
+        position: relative;
         width: 100vw;
-        margin: 0px -28px;
+        margin-left: -50vw;
+        left: 50%;
+    }
+
+    .hebergements {
+        margin-top: 20px;
     }
 
     .populaires-cards,
@@ -542,28 +552,33 @@ p {
         padding: 0;
     }
 
-    .hebergements-cards .card{
+    .hebergements-cards .card {
         width: 100%;
     }
 
-    .activites-cards{
+    .activites{
+        padding: 10px;
+    }
+    .activites-cards {
         flex-direction: column;
     }
 
-    .activites-cards .card{
+    .activites-cards .card {
         width: 100%;
 
     }
 
-    .footer{
+    .footer {
         flex-direction: column;
+        position: relative;
         width: 100vw;
-        margin: 0px -28px;
+        margin-left: -50vw;
+        left: 50%;
         padding: 30px;
     }
 
-    .footer .list{
-        width: 100%;
+    .footer .list {
+        width: 50%;
     }
 
 
